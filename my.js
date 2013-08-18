@@ -1,5 +1,5 @@
 var parse = require('url').parse;
-
+//o hai comment ya kbeer
 require('http').createServer(function(req, res) {
     params = parse(req.url, true).query;
     var a = parseInt(params.a, 10);
