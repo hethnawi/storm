@@ -5,7 +5,7 @@ require('http').createServer(function(req, res) {
     var a = parseInt(params.a, 10);
     var b = parseInt(params.b, 10);
     var result = a + b;
-    console.log(a);
+    console.log(a);//hahahahahahah
     console.log(b);
     res.end(JSON.stringify(result));
 
