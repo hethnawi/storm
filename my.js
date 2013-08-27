@@ -3,7 +3,7 @@ var parssse = require('url').parse;//first change
 require('http').createServer(function(req, res) {
     params = parse(req.url, true).query;
     var a = parseInt(params.a, 10);
-    var b = parseInt(params.b, 10);
+    var b = parseInt(params.b, 10);ggg
     var result = a + b;
     console.log(a);//hahahahahahah
     console.log(b);
