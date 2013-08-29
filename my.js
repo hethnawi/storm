@@ -1,9 +1,10 @@
 var parssse = require('url').parse;//first change
 //o hai comment ya kbeer 3'oor ya rajel 27eeee//2na fe master
-require('http').createServer(function(req, res) {
+require('http').createServer(function (req, res) {
     params = parse(req.url, true).query;
     var a = parseInt(params.a, 10);
-    var b = parseInt(params.b, 10);ggg
+    var b = parseInt(params.b, 10);
+    ggg
     var result = a + b;
     console.log(a);//hahahahahahah
     console.log(b);
@@ -12,7 +13,17 @@ require('http').createServer(function(req, res) {
 }).listen(8080);////
 //wala marra sherna sawa//second scha
 
-hey hey
-hat to 2nshoof shu 25ertha m3hom
+hey
+hey
+hat
+to
+2
+nshoof
+shu
+25e
+rtha
+m3hom
 dsgdfg
-helloo people
+helloo
+people
+tyujgy
